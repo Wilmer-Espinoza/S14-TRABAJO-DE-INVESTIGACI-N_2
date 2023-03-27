@@ -1,0 +1,134 @@
+body{
+    background-color:#abdacb;
+    color:#f7d8d8;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:16px;
+    background-image: url('https://th.bing.com/th/id/R.4840cf6b0178c7492d95fbdd5dc1c6fb?rik=X91FgAUhuMbQIw&pid=ImgRaw&r=0') ;
+    
+
+   
+ 
+  }
+  div{
+    display: line;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:left;
+
+}
+@font-face{
+  font-family:gtav;
+  src: url(/fuente2/primera.otf);
+}
+h1{
+  color:rgb(255, 255, 255);
+  text-align:left;
+font-family:gtav ;
+  margin-left: 500px;
+  font-size: 50px;
+}
+
+button {
+  height: 10;
+    margin: 10px;
+    margin-left: 300px;
+    padding: 20px;
+  }
+  .custom-btn {
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/400/469/73/super-mario-super-mario-bros-video-games-pixel-art-pixels-hd-wallpaper-preview.jpg");
+    width: 200px;
+    height: 40px;
+    color: #6ebb1a;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(0, 0, 0, 0.804),
+      7px 7px 20px 0px rgba(0, 0, 0, 0.804), 4px 4px 5px 0px rgba(0, 0, 0, 0.804);
+    outline: none;
+  }
+  
+  .btn-7 {
+    background: linear-gradient(
+      0deg,
+      rgb(21, 102, 179) 0%,
+      rgb(21, 102, 179) 100%
+    );
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ font-size:medium;
+  }
+  .btn-7 span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .btn-7:before,
+  .btn-7:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, 0.9),
+      -4px -4px 5px 0px rgba(255, 255, 255, 0.9),
+      7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+  }
+  .btn-7:before {
+    height: 0%;
+    width: 2px;
+  }
+  .btn-7:after {
+    width: 0%;
+    height: 2px;
+  }
+  .btn-7:hover {
+    color: #db511b;
+    background: transparent;
+  }
+  .btn-7:hover:before {
+    height: 100%;
+  }
+  .btn-7:hover:after {
+    width: 100%;
+  }
+  .btn-7 span:before,
+  .btn-7 span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    background: rgb(0, 0, 0);
+    box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, 0.9),
+      -4px -4px 5px 0px rgba(255, 255, 255, 0.9),
+      7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+  }
+  .btn-7 span:before {
+    width: 2px;
+    height: 0%;
+  }
+  .btn-7 span:after {
+    height: 2px;
+    width: 0%;
+  }
+  .btn-7 span:hover:before {
+    height: 100%;
+  }
+  .btn-7 span:hover:after {
+    width: 100%;
+  }
+
+   .titulo1{
+    color:rgb(255, 255, 255);
+
+}

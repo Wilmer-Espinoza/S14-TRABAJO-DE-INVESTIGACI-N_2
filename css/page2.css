@@ -1,0 +1,120 @@
+@font-face{
+  font-family:gtav;
+  src: url(/fuente2/primera.otf);
+}
+body{
+    background-color:#abdacb;
+    color:#f7d8d8;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-family:gtav;
+    background-image: url('https://cs4.gtaall.net/screenshots/d9802/2015-12/original/e7b4fef4377bdc613017ad216fffc7104049df10/314018-GTA5-2015-12-31-10-34-23-99.jpg') ;
+  
+}
+div{
+  display: line;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items:left;
+
+}
+
+button {
+height: 10;
+  margin: 10px;
+  margin-left: 160px;
+  padding: 20px;
+  text-align: center;
+}
+.custom-btn {
+  width: 200px;
+  height: 40px;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family:gtav;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(0, 0, 0, 0.804),
+    7px 7px 20px 0px rgba(64, 50, 57, 0.804), 4px 4px 5px 0px rgba(27, 9, 9, 0.804);
+  outline: none;
+}
+
+.btn-7 {
+  background:transparent;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  font-family:gtav;
+font-size:medium;
+}
+.btn-7 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+}
+.btn-7:before,
+.btn-7:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0;
+  background: rgb(255, 255, 255);
+  box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, 0.9),
+    -4px -4px 5px 0px rgba(255, 255, 255, 0.9),
+    7px 7px 20px 0px rgb(255, 255, 255), 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+.btn-7:before {
+  height: 0%;
+  width: 2px;
+}
+.btn-7:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-7:hover {
+  color: #000000;
+  background: transparent;
+}
+.btn-7:hover:before {
+  height: 100%;
+}
+.btn-7:hover:after {
+  width: 100%;
+}
+.btn-7 span:before,
+.btn-7 span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  background: rgba(255, 255, 255, 0.725);
+  box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, 0.9),
+    -4px -4px 5px 0px rgba(255, 255, 255, 0.9),
+    7px 7px 20px 0px rgb(255, 255, 255), 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+.btn-7 span:before {
+  width: 2px;
+  height: 0%;
+}
+.btn-7 span:after {
+  height: 2px;
+  width: 0%;
+}
+.btn-7 span:hover:before {
+  height: 100%;
+}
+.btn-7 span:hover:after {
+  width: 100%;
+}
+
